@@ -7,7 +7,7 @@ export function cleanCart(value: unknown, products: Product[]): CartItem[] {
   for (const raw of value.slice(0, 100)) {
     if (!raw || typeof raw !== 'object') continue;
     const p = products.find(p => p.id === raw.productId || p.legacyIds?.includes(raw.productId));
-    if (!p?.variants.some(v => v.id === raw.variantId)) continue;
+    if (!p || ![...p.variants,...(p.legacyVariants || [])].some(v => v.id === raw.variantId)) continue;
     const old = result.find(x => x.productId === p.id && x.variantId === raw.variantId);
     if (old) old.quantity = clampQuantity(old.quantity + clampQuantity(raw.quantity));
     else result.push({ productId: p.id, variantId: raw.variantId, quantity: clampQuantity(raw.quantity) });
@@ -17,7 +17,7 @@ export function cleanCart(value: unknown, products: Product[]): CartItem[] {
 export function resolveCart(cart: CartItem[], products: Product[]) {
   return cleanCart(cart, products).map(item => {
     const product = products.find(p => p.id === item.productId)!;
-    const variant = product.variants.find(v => v.id === item.variantId)!;
+    const variant = [...product.variants,...(product.legacyVariants || [])].find(v => v.id === item.variantId)!;
     return { ...item, product, variant, total: product.retailPrice === null ? null : product.retailPrice * item.quantity };
   });
 }
