@@ -1,0 +1,955 @@
+[
+  {
+    "id": "modal-viscose",
+    "slug": "modal-viscose",
+    "name": "Pashmina Modal Viscose",
+    "category": "Pashmina",
+    "material": "Modal Viscose",
+    "retailPrice": 54000,
+    "pricingStatus": "verified",
+    "description": "Siluet pashmina klasik untuk melengkapi gaya personalmu. Pilihan putih yang mudah dipadukan, dari agenda pagi hingga pertemuan sore.",
+    "measurements": null,
+    "images": [
+      "modal.webp",
+      "modal-alt.webp"
+    ],
+    "variants": [
+      {
+        "id": "putih",
+        "name": "Putih",
+        "hex": "#eee9de",
+        "image": "modal.webp"
+      }
+    ],
+    "colorFamily": "Putih",
+    "featured": true,
+    "availabilityStatus": "confirm",
+    "pricingSource": "brand",
+    "aliases": [
+      "Pasmina Modal Viscose"
+    ]
+  },
+  {
+    "id": "viscose-gradasi",
+    "slug": "viscose-gradasi",
+    "name": "Viscose Gradasi",
+    "category": "Pashmina",
+    "material": "Modal Viscose",
+    "retailPrice": 99000,
+    "pricingStatus": "verified",
+    "description": "Dua nuansa dalam satu pashmina. Jelajahi 12 perpaduan warna Gradasi, dari Blushy Rose hingga Pearl Black, untuk cerita gaya yang berbeda.",
+    "measurements": null,
+    "images": [
+      "gradasi.webp",
+      "gradasi-alt.webp"
+    ],
+    "variants": [
+      {
+        "id": "blushy-rose",
+        "name": "Blushy Rose",
+        "hex": "#d7b2c9",
+        "image": "gradasi.webp",
+        "family": "Pink"
+      },
+      {
+        "id": "ash-charcoal",
+        "name": "Ash Charcoal",
+        "hex": "#656166",
+        "image": "gradasi-ash.webp",
+        "family": "Hitam"
+      },
+      {
+        "id": "creamy-nude",
+        "name": "Creamy Nude",
+        "hex": "#d8c5b4",
+        "image": "gradasi-cream.webp",
+        "family": "Taupe"
+      },
+      {
+        "id": "burnt-maho",
+        "name": "Burnt Maho",
+        "hex": "#9d614e",
+        "family": "Taupe",
+        "image": "gradasi-burnt-maho.webp"
+      },
+      {
+        "id": "cobalt-blue",
+        "name": "Cobalt Blue",
+        "hex": "#899ec1",
+        "family": "Biru",
+        "image": "gradasi-cobalt-blue.webp"
+      },
+      {
+        "id": "cool-grey",
+        "name": "Cool Grey",
+        "hex": "#96969d",
+        "family": "Taupe",
+        "image": "gradasi-cool-grey.webp"
+      },
+      {
+        "id": "cosmic-mauve",
+        "name": "Cosmic Mauve",
+        "hex": "#a990ac",
+        "family": "Lavender",
+        "image": "gradasi-cosmic-mauve.webp"
+      },
+      {
+        "id": "fresh-lemon",
+        "name": "Fresh Lemon",
+        "hex": "#d4d898",
+        "family": "Hijau",
+        "image": "gradasi-fresh-lemon.webp"
+      },
+      {
+        "id": "pale-olive",
+        "name": "Pale Olive",
+        "hex": "#a7ad8c",
+        "family": "Hijau",
+        "image": "gradasi-pale-olive.webp"
+      },
+      {
+        "id": "pearl-black",
+        "name": "Pearl Black",
+        "hex": "#57525d",
+        "family": "Hitam",
+        "image": "gradasi-pearl-black.webp"
+      },
+      {
+        "id": "rose-madder",
+        "name": "Rose Madder",
+        "hex": "#a8667c",
+        "family": "Pink",
+        "image": "gradasi-rose-madder.webp"
+      },
+      {
+        "id": "stormy-laven",
+        "name": "Stormy Laven",
+        "hex": "#aaa3c0",
+        "family": "Lavender",
+        "image": "gradasi-stormy-laven.webp"
+      }
+    ],
+    "colorFamily": "Pink",
+    "featured": true,
+    "availabilityStatus": "confirm",
+    "pricingSource": "retail"
+  },
+  {
+    "id": "paris-legend",
+    "slug": "paris-legend",
+    "name": "Paris Legend",
+    "category": "Segi Empat",
+    "material": "Paris Basic Ori",
+    "retailPrice": 29000,
+    "pricingStatus": "verified",
+    "description": "Koleksi Paris Jadul dalam bentuk segi empat klasik. Nuansa lavender pada foto memberi sentuhan warna lembut pada busana sehari-hari.",
+    "measurements": "110 × 110 cm",
+    "images": [
+      "paris.webp",
+      "paris-alt.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Lavender · sesuai foto",
+        "hex": "#bab1bf",
+        "image": "paris.webp"
+      }
+    ],
+    "colorFamily": "Lavender",
+    "featured": true,
+    "availabilityStatus": "confirm",
+    "legacyIds": [
+      "paris-jadul"
+    ],
+    "aliases": [
+      "Paris Jadul",
+      "Paris Klasik"
+    ],
+    "pricingSource": "retail"
+  },
+  {
+    "id": "airtech-ultrasoft",
+    "slug": "airtech-ultrasoft",
+    "name": "Pashmina Airtech Ultrasoft",
+    "category": "Pashmina",
+    "material": "Bamboo Airtech",
+    "retailPrice": 75000,
+    "pricingStatus": "verified",
+    "description": "Pashmina berbahan Bamboo Airtech dengan siluet memanjang. Pilihan taupe pada foto untuk padanan busana yang tenang dan sederhana.",
+    "measurements": null,
+    "images": [
+      "airtech.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Taupe · sesuai foto",
+        "hex": "#b6a2a8",
+        "image": "airtech.webp"
+      }
+    ],
+    "colorFamily": "Taupe",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "retail"
+  },
+  {
+    "id": "gana-instan",
+    "slug": "gana-instan",
+    "name": "Gana Instan",
+    "category": "Hijab Instan",
+    "material": "Bamboo Spandex",
+    "retailPrice": 56000,
+    "pricingStatus": "verified",
+    "description": "Pashmina oval instan dari koleksi Gana. Pilihan untuk kamu yang menyukai bentuk hijab praktis dengan tampilan yang tetap rapi.",
+    "measurements": null,
+    "images": [
+      "gana.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Putih · sesuai foto",
+        "hex": "#e6e2dd",
+        "image": "gana.webp"
+      }
+    ],
+    "colorFamily": "Putih",
+    "featured": true,
+    "availabilityStatus": "confirm",
+    "pricingSource": "brand",
+    "aliases": [
+      "Gana Instant",
+      "Gana Pashmina Oval Instan"
+    ]
+  },
+  {
+    "id": "printed-viscose",
+    "slug": "printed-viscose",
+    "name": "Pashmina Printed Viscose",
+    "category": "Pashmina",
+    "material": "Modal Viscose",
+    "retailPrice": 99000,
+    "pricingStatus": "verified",
+    "description": "Motif dari 18 kode PPV serta seri Cloudy, Stormy, dan Windy. Temukan pilihan yang memberi karakter pada padanan busanamu; foto mengikuti varian yang kamu pilih.",
+    "measurements": null,
+    "images": [
+      "printed-alt.webp",
+      "printed.webp"
+    ],
+    "variants": [
+      {
+        "id": "ppv-a1",
+        "name": "PPV-A1",
+        "hex": "#d2a8ab",
+        "image": "printed-alt.webp",
+        "family": "Motif"
+      },
+      {
+        "id": "ppv-a2",
+        "name": "PPV-A2",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-a2.webp"
+      },
+      {
+        "id": "ppv-a3",
+        "name": "PPV-A3",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-a3.webp"
+      },
+      {
+        "id": "ppv-a4",
+        "name": "PPV-A4",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-a4.webp"
+      },
+      {
+        "id": "ppv-b1",
+        "name": "PPV-B1",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-b1.webp"
+      },
+      {
+        "id": "ppv-b2",
+        "name": "PPV-B2",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-b2.webp"
+      },
+      {
+        "id": "ppv-b3",
+        "name": "PPV-B3",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-b3.webp"
+      },
+      {
+        "id": "ppv-c1",
+        "name": "PPV-C1",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-c1.webp"
+      },
+      {
+        "id": "ppv-c2",
+        "name": "PPV-C2",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-c2.webp"
+      },
+      {
+        "id": "ppv-c3",
+        "name": "PPV-C3",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-c3.webp"
+      },
+      {
+        "id": "ppv-c4",
+        "name": "PPV-C4",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-c4.webp"
+      },
+      {
+        "id": "ppv-d1",
+        "name": "PPV-D1",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-d1.webp"
+      },
+      {
+        "id": "ppv-d2",
+        "name": "PPV-D2",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-d2.webp"
+      },
+      {
+        "id": "ppv-d3",
+        "name": "PPV-D3",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-d3.webp"
+      },
+      {
+        "id": "ppv-d4",
+        "name": "PPV-D4",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-d4.webp"
+      },
+      {
+        "id": "ppv-e1",
+        "name": "PPV-E1",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-e1.webp"
+      },
+      {
+        "id": "ppv-e2",
+        "name": "PPV-E2",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-e2.webp"
+      },
+      {
+        "id": "ppv-e3",
+        "name": "PPV-E3",
+        "hex": "#b995a4",
+        "family": "Motif",
+        "image": "ppv-e3.webp"
+      },
+      {
+        "id": "cloudy",
+        "name": "Cloudy Series",
+        "hex": "#aeb8bc",
+        "family": "Motif",
+        "contain": true,
+        "image": "cloudy.webp"
+      },
+      {
+        "id": "stormy",
+        "name": "Stormy Series",
+        "hex": "#aeb8bc",
+        "family": "Motif",
+        "contain": true,
+        "image": "stormy.webp"
+      },
+      {
+        "id": "windy",
+        "name": "Windy Series",
+        "hex": "#aeb8bc",
+        "family": "Motif",
+        "contain": true,
+        "image": "windy.webp"
+      }
+    ],
+    "colorFamily": "Motif",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "retail"
+  },
+  {
+    "id": "motif-tryspan",
+    "slug": "motif-tryspan",
+    "name": "Segi4 Motif Tryspan",
+    "category": "Segi Empat",
+    "material": "Voal Tryspan Ultrafine",
+    "retailPrice": 60000,
+    "pricingStatus": "verified",
+    "description": "Motif yang memberi karakter pada tampilan sehari-hari. Koleksi segi empat dari seri Tryspan, dengan ukuran 110 × 110 cm.",
+    "measurements": "110 × 110 cm",
+    "images": [
+      "tryspan.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Motif · sesuai foto",
+        "hex": "#5d465a",
+        "image": "tryspan.webp",
+        "family": "Motif"
+      }
+    ],
+    "colorFamily": "Motif",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "contain": true,
+    "pricingSource": "brand",
+    "aliases": [
+      "Segi4 Motif",
+      "Segi Empat Motif"
+    ]
+  },
+  {
+    "id": "bamboo-spandex",
+    "slug": "bamboo-spandex",
+    "name": "Pashmina Bamboo Spandex",
+    "category": "Pashmina",
+    "material": "Bamboo Spandex",
+    "retailPrice": 57000,
+    "pricingStatus": "verified",
+    "description": "Pashmina dalam warna lembut untuk berbagai padanan busana. Pilihan berbahan Bamboo Spandex.",
+    "measurements": null,
+    "images": [
+      "bamboo.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Pink · sesuai foto",
+        "hex": "#cbb4b3",
+        "image": "bamboo.webp",
+        "family": "Pink"
+      }
+    ],
+    "colorFamily": "Pink",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "brand",
+    "aliases": [
+      "Pasmina Bamboo",
+      "Pashmina Bamboo"
+    ]
+  },
+  {
+    "id": "zoya-instan",
+    "slug": "zoya-instan",
+    "name": "Zoya Instan",
+    "category": "Hijab Instan",
+    "material": "Micro Modal Tencel",
+    "retailPrice": 75000,
+    "pricingStatus": "verified",
+    "description": "Pashmina instan dengan ciput, untuk bentuk yang praktis dan tampilan yang rapi.",
+    "measurements": null,
+    "images": [
+      "zoya.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Pink · sesuai foto",
+        "hex": "#e6c9c4",
+        "image": "zoya.webp",
+        "family": "Pink"
+      }
+    ],
+    "colorFamily": "Pink",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "brand",
+    "aliases": [
+      "Zoya",
+      "Zoya Instant",
+      "Zoya Instan Bamboo"
+    ]
+  },
+  {
+    "id": "bamboo-slip-on",
+    "slug": "bamboo-slip-on",
+    "name": "Bamboo Slip On",
+    "category": "Hijab Instan",
+    "material": "Bamboo Spandex",
+    "retailPrice": 40000,
+    "pricingStatus": "verified",
+    "description": "Koleksi slip on berbahan Bamboo Spandex. Siluet sederhana yang mudah menjadi bagian dari keseharianmu.",
+    "measurements": null,
+    "images": [
+      "slip-on.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Pink · sesuai foto",
+        "hex": "#e3cec9",
+        "image": "slip-on.webp",
+        "family": "Pink"
+      }
+    ],
+    "colorFamily": "Pink",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "brand",
+    "aliases": [
+      "Slip On"
+    ]
+  },
+  {
+    "id": "paris-japan",
+    "slug": "paris-japan",
+    "name": "Paris Japan",
+    "category": "Segi Empat",
+    "material": "Paris Japan Ori",
+    "retailPrice": 48000,
+    "pricingStatus": "verified",
+    "description": "Segi empat Paris Japan Ori berukuran 115 × 115 cm. Warna biru lembut pada foto menjadi pilihan untuk tampilan yang tenang.",
+    "measurements": "115 × 115 cm",
+    "images": [
+      "paris-japan.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Biru · sesuai foto",
+        "hex": "#b3c4e1",
+        "image": "paris-japan.webp",
+        "family": "Biru"
+      }
+    ],
+    "colorFamily": "Biru",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "brand"
+  },
+  {
+    "id": "hawa-instan",
+    "slug": "hawa-instan",
+    "name": "Hawa Instan",
+    "category": "Hijab Instan",
+    "material": "Bamboo Spandex",
+    "retailPrice": 49000,
+    "pricingStatus": "verified",
+    "description": "Hijab instan berbahan Bamboo Spandex. Siluet yang sederhana dalam warna hitam pada foto, untuk padanan gaya sehari-hari.",
+    "measurements": null,
+    "images": [
+      "hawa.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Hitam · sesuai foto",
+        "hex": "#252530",
+        "image": "hawa.webp",
+        "family": "Hitam"
+      }
+    ],
+    "colorFamily": "Hitam",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "brand",
+    "aliases": [
+      "Hawa Instant"
+    ]
+  },
+  {
+    "id": "viscose-highlight",
+    "slug": "viscose-highlight",
+    "name": "Pashmina Highlight",
+    "category": "Pashmina",
+    "material": "Viscose Highlight Textured",
+    "retailPrice": 79000,
+    "pricingStatus": "verified",
+    "description": "Permainan tekstur pada siluet pashmina. Koleksi Viscose Highlight untuk melengkapi gaya personalmu dengan detail yang lembut.",
+    "measurements": null,
+    "images": [
+      "highlight.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Taupe · sesuai foto",
+        "hex": "#b9b8ad",
+        "image": "highlight.webp",
+        "family": "Taupe"
+      }
+    ],
+    "colorFamily": "Taupe",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "retail"
+  },
+  {
+    "id": "aisha-khiban",
+    "slug": "aisha-khiban",
+    "name": "Aisha Khiban",
+    "category": "Khimar",
+    "material": "Arabian Voile",
+    "retailPrice": 75000,
+    "pricingStatus": "verified",
+    "description": "Khimar bandana Aisha. Bahan Arabian Voile dengan siluet panjang untuk pilihan gaya yang lebih tertutup.",
+    "measurements": null,
+    "images": [
+      "aisha.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Taupe · sesuai foto",
+        "hex": "#bbbaa5",
+        "image": "aisha.webp",
+        "family": "Taupe"
+      }
+    ],
+    "colorFamily": "Taupe",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "brand"
+  },
+  {
+    "id": "hayla-khiban",
+    "slug": "hayla-khiban",
+    "name": "Hayla Khiban",
+    "category": "Khimar",
+    "material": "Rayon Airflow",
+    "retailPrice": 49000,
+    "pricingStatus": "verified",
+    "description": "Khimar bandana Hayla berbahan Rayon Airflow. Pilihan dengan nuansa netral yang mudah dipadukan dengan busana sehari-hari.",
+    "measurements": null,
+    "images": [
+      "hayla.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Taupe · sesuai foto",
+        "hex": "#b9a79a",
+        "image": "hayla.webp",
+        "family": "Taupe"
+      }
+    ],
+    "colorFamily": "Taupe",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "brand"
+  },
+  {
+    "id": "mukena-armani",
+    "slug": "mukena-armani",
+    "name": "Mukena Armani Velvet",
+    "category": "Mukena",
+    "material": "Armani Velvet",
+    "retailPrice": null,
+    "pricingStatus": "inquiry",
+    "description": "Koleksi mukena Armani dari seri Velvet. Harga sesuai seri dan pilihan warna dikonfirmasi bersama admin sebelum pembayaran.",
+    "measurements": null,
+    "images": [
+      "armani.webp"
+    ],
+    "variants": [
+      {
+        "id": "velvet-vol-2",
+        "name": "Velvet Vol. 2 · sesuai foto",
+        "hex": "#cd969d",
+        "image": "armani.webp",
+        "family": "Pink"
+      }
+    ],
+    "colorFamily": "Pink",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "contain": true,
+    "pricingSource": "unresolved"
+  },
+  {
+    "id": "mukena-segenggam-polos",
+    "slug": "mukena-segenggam-polos",
+    "name": "Mukena Segenggam Polos",
+    "category": "Mukena",
+    "material": "New Solite",
+    "retailPrice": 169000,
+    "pricingStatus": "verified",
+    "description": "Koleksi mukena segenggam dengan tampilan polos. Material New Solite dan tas pendamping yang ditampilkan pada foto produk.",
+    "measurements": null,
+    "images": [
+      "segenggam-polos.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Lavender · sesuai foto",
+        "hex": "#bdaeb5",
+        "image": "segenggam-polos.webp",
+        "family": "Lavender"
+      }
+    ],
+    "colorFamily": "Lavender",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "contain": true,
+    "pricingSource": "retail"
+  },
+  {
+    "id": "mukena-segenggam-lily",
+    "slug": "mukena-segenggam-lily",
+    "name": "Mukena Segenggam Lily",
+    "category": "Mukena",
+    "material": "New Solite",
+    "retailPrice": null,
+    "pricingStatus": "inquiry",
+    "description": "Motif bunga dari Lily Series. Harga dan pilihan motif mukena segenggam ini dikonfirmasi bersama admin sebelum pembayaran.",
+    "measurements": null,
+    "images": [
+      "segenggam-lily.webp"
+    ],
+    "variants": [
+      {
+        "id": "lily-series",
+        "name": "Lily Series · konfirmasi motif",
+        "hex": "#aaa4b6",
+        "image": "segenggam-lily.webp",
+        "family": "Motif"
+      }
+    ],
+    "colorFamily": "Motif",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "contain": true,
+    "pricingSource": "unresolved"
+  },
+  {
+    "id": "mukena-rayon-viscose",
+    "slug": "mukena-rayon-viscose",
+    "name": "Mukena Rayon Viscose",
+    "category": "Mukena",
+    "material": "Rayon Viscose",
+    "retailPrice": null,
+    "pricingStatus": "inquiry",
+    "description": "Koleksi mukena Rayon Viscose bermotif. Pilih koleksi ini untuk pesananmu, lalu konfirmasikan warna, harga, dan ketersediaan bersama admin.",
+    "measurements": null,
+    "images": [
+      "rayon.webp"
+    ],
+    "variants": [
+      {
+        "id": "sesuai-foto",
+        "name": "Motif · sesuai foto",
+        "hex": "#673140",
+        "image": "rayon.webp",
+        "family": "Motif"
+      }
+    ],
+    "colorFamily": "Motif",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "contain": true,
+    "pricingSource": "unresolved"
+  },
+  {
+    "id": "hampers-soft-box",
+    "slug": "hampers-soft-box",
+    "name": "Hampers Soft Box",
+    "category": "Hampers",
+    "material": "Soft box & kartu ucapan",
+    "retailPrice": null,
+    "pricingStatus": "inquiry",
+    "description": "Soft box berukuran 20 × 20 cm, kartu ucapan, hang tag, dan pita sesuai foto katalog. Isi hijab, desain kemasan, serta harga paket dikonfirmasi bersama admin.",
+    "measurements": "20 × 20 cm",
+    "images": [
+      "hampers-reference.webp"
+    ],
+    "variants": [
+      {
+        "id": "soft-box",
+        "name": "Soft Box · konfirmasi isi paket",
+        "hex": "#d2bd8c",
+        "image": "hampers-reference.webp",
+        "family": "Motif"
+      }
+    ],
+    "colorFamily": "Motif",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "contain": true,
+    "pricingSource": "unresolved"
+  },
+  {
+    "id": "lea-oval-khiban",
+    "slug": "lea-oval-khiban",
+    "name": "Lea Oval Khiban",
+    "category": "Khimar",
+    "material": null,
+    "retailPrice": 64000,
+    "pricingStatus": "verified",
+    "measurements": null,
+    "description": "Khimar dengan siluet oval yang memanjang. Pilihan putih dan pink pada foto memberi dua nuansa untuk melengkapi padanan busanamu. Detail bahan dan ukuran dapat ditanyakan sebelum memesan.",
+    "images": [
+      "lea-oval-khiban.webp",
+      "lea-oval-khiban-rose.webp"
+    ],
+    "variants": [
+      {
+        "id": "putih-foto",
+        "name": "Putih · sesuai foto",
+        "hex": "#e8e6e0",
+        "image": "lea-oval-khiban.webp",
+        "family": "Putih"
+      },
+      {
+        "id": "pink-foto",
+        "name": "Pink · sesuai foto",
+        "hex": "#b77b8b",
+        "image": "lea-oval-khiban-rose.webp",
+        "family": "Pink"
+      }
+    ],
+    "colorFamily": "Putih",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "brand"
+  },
+  {
+    "id": "zea-sport-instan",
+    "slug": "zea-sport-instan",
+    "name": "Zea Sport Instan",
+    "category": "Hijab Instan",
+    "material": null,
+    "retailPrice": null,
+    "pricingStatus": "inquiry",
+    "measurements": null,
+    "description": "Hijab instan dari koleksi Zea Sport dengan siluet pendek dan detail tali pada foto. Pilih nuansa pink atau taupe sesuai tampilan katalog. Konfirmasikan bahan, ukuran, dan ketersediaannya bersama kami.",
+    "images": [
+      "zea-sport-instan.webp",
+      "zea-sport-instan-alt.webp"
+    ],
+    "variants": [
+      {
+        "id": "pink-foto",
+        "name": "Pink · sesuai foto",
+        "hex": "#bd7b87",
+        "image": "zea-sport-instan.webp",
+        "family": "Pink"
+      },
+      {
+        "id": "taupe-foto",
+        "name": "Taupe · sesuai foto",
+        "hex": "#a6a099",
+        "image": "zea-sport-instan-alt.webp",
+        "family": "Taupe"
+      }
+    ],
+    "colorFamily": "Pink",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "unresolved"
+  },
+  {
+    "id": "inner-tali",
+    "slug": "inner-tali",
+    "name": "Ciput / Inner Tali",
+    "category": "Ciput",
+    "retailPrice": 25000,
+    "pricingStatus": "verified",
+    "material": "Modal Tencel",
+    "measurements": null,
+    "description": "Ciput / Inner Tali tersedia untuk ditanyakan langsung kepada kami. Hubungi kami untuk melihat foto, memilih warna, dan memastikan detail produk sebelum memesan.",
+    "images": [],
+    "variants": [],
+    "colorFamily": "",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "photoStatus": "pending",
+    "pricingSource": "brand",
+    "aliases": [
+      "Ciput",
+      "Inner Tali"
+    ]
+  },
+  {
+    "id": "armani-polka",
+    "slug": "armani-polka",
+    "name": "Armani Polka Series",
+    "category": "Mukena",
+    "material": null,
+    "measurements": null,
+    "retailPrice": null,
+    "pricingStatus": "inquiry",
+    "description": "Sentuhan motif polka dalam pilihan mukena. Foto menampilkan beberapa warna seri Polka; tanyakan warna pilihanmu dan ketersediaannya melalui WhatsApp.",
+    "images": [
+      "armani-polka.webp"
+    ],
+    "variants": [
+      {
+        "id": "seri-polka",
+        "name": "Seri Polka · warna dikonfirmasi",
+        "image": "armani-polka.webp",
+        "hex": "#e5c9cf"
+      }
+    ],
+    "colorFamily": "Motif",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "pricingSource": "unresolved"
+  },
+  {
+    "id": "armani-lasercut",
+    "slug": "armani-lasercut",
+    "name": "Armani Lasercut",
+    "category": "Mukena",
+    "retailPrice": 279000,
+    "pricingStatus": "verified",
+    "material": "Atasan Armani Ori · bawahan Armani Velvet",
+    "measurements": null,
+    "description": "Armani Lasercut tersedia untuk ditanyakan langsung kepada kami. Hubungi kami untuk melihat foto, memilih warna, dan memastikan detail produk sebelum memesan.",
+    "images": [],
+    "variants": [],
+    "colorFamily": "",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "photoStatus": "pending",
+    "pricingSource": "retail"
+  },
+  {
+    "id": "armani-panel-printing",
+    "slug": "armani-panel-printing",
+    "name": "Armani Panel Printing",
+    "category": "Mukena",
+    "retailPrice": 349000,
+    "pricingStatus": "verified",
+    "material": "Armani Panel",
+    "measurements": null,
+    "description": "Armani Panel Printing tersedia untuk ditanyakan langsung kepada kami. Hubungi kami untuk melihat foto, memilih warna, dan memastikan detail produk sebelum memesan.",
+    "images": [],
+    "variants": [],
+    "colorFamily": "",
+    "featured": false,
+    "availabilityStatus": "confirm",
+    "photoStatus": "pending",
+    "pricingSource": "retail"
+  }
+]

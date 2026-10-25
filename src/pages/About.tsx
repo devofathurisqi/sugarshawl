@@ -1,0 +1,6 @@
+import {Link} from 'react-router-dom';
+import {ArrowRight,ArrowUpRight} from 'lucide-react';
+import {Logo} from '../components/Layout';
+import {ShoppingSteps} from '../App';
+import {whatsappUrl} from '../commerce';
+export default function About(){return <><section className="about-hero section"><div><span className="eyebrow">THE SUGAR SHAWL STORY</span><h1>Sedikit warna.<br/>Cerita yang <em>manis.</em></h1><p>Kami menyukai cara warna mengubah suasana: mint yang tenang, peach yang hangat, atau warna favoritmu sendiri. Sugar Shawl lahir sebagai tempat untuk menjelajahi pilihan hijab dengan rasa yang menyenangkan.</p><p>Dari pashmina hingga hijab instan, temukan padanan untuk rencanamu hari ini. Bila masih ingin membandingkan warna atau bertanya tentang detail koleksi, mulai saja dengan sebuah hello.</p><Link to="/koleksi" className="button">Find your sweet shade <ArrowRight size={18}/></Link></div><div className="about-identity"><Logo/><p>makes you sweet like sugar</p><a className="text-link" href={whatsappUrl('Halo SUGARSHAWL, saya ingin bertanya tentang pilihan hijab.')} target="_blank" rel="noreferrer">Let’s talk colours <ArrowUpRight size={18}/></a></div></section><ShoppingSteps/></>;}
