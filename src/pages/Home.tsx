@@ -5,12 +5,11 @@ import {products,imageUrl,imageSet,priceLabel} from '../data/catalog';
 import {whatsappUrl} from '../commerce';
 import SilkRibbon from '../components/SilkRibbon';
 const shades=[
- {id:'pale-olive',label:'Mint mood',name:'Pale Olive',image:'gradasi-pale-olive.webp',hex:'#9fc1a9'},
- {id:'creamy-nude',label:'Peach mood',name:'Creamy Nude',image:'gradasi-cream.webp',hex:'#efc2af'},
- {id:'blushy-rose',label:'Pink mood',name:'Blushy Rose',image:'gradasi.webp',hex:'#d3adc1'},
+ {id:'biscuit',label:'Biscuit',name:'Biscuit',image:'gana.webp',hex:'#c8c3ba'},
+ {id:'baby-pink',label:'Baby Pink',name:'Baby Pink',image:'shade-535f4d5c463902.webp',hex:'#d0a5b1'},
 ];
 export default function Home(){
- const [shadeIndex,setShadeIndex]=useState(0),shade=shades[shadeIndex],gradasi=products.find(p=>p.id==='viscose-gradasi')!;
+ const [shadeIndex,setShadeIndex]=useState(0),shade=shades[shadeIndex],gana=products.find(p=>p.id==='gana-instan')!;
  const rail=useRef<HTMLDivElement>(null);
  const [edges,setEdges]=useState({start:true,end:false});
  useEffect(()=>{const el=rail.current;if(!el)return;const update=()=>{const next={start:el.scrollLeft<=2,end:el.scrollLeft+el.clientWidth>=el.scrollWidth-2};setEdges(old=>old.start===next.start&&old.end===next.end?old:next);};update();const observer=new ResizeObserver(update);observer.observe(el);el.addEventListener('scroll',update,{passive:true});return()=>{observer.disconnect();el.removeEventListener('scroll',update);};},[]);
@@ -20,10 +19,10 @@ export default function Home(){
   <section className="sugar-universe" data-mood={shade.id}>
    <SilkRibbon/>
    <div className="sugar-issue"><span>THE SWEET SHADE STUDIO</span><span>HIJAB, WITH A LITTLE PERSONALITY.</span></div>
-   <div className="sugar-hero-heading"><span className="eyebrow">COLOUR YOUR EVERYDAY</span><h1>Your colour.<br/>Your kind<br/>of <em>sweet.</em></h1><p>Hari ini, kamu ingin jadi warna apa?</p></div>
-   <figure className="sugar-portrait"><img key={shade.image} src={imageUrl(shade.image)} srcSet={imageSet(shade.image)} sizes="(max-width:700px) 68vw, 38vw" alt={`Viscose Gradasi — ${shade.name}`} width="900" height="1200" fetchPriority="high"/><figcaption><span>01 / THE GRADASI EDIT</span><Link to={`/produk/viscose-gradasi?varian=${shade.id}`}>{shade.name}<ArrowUpRight size={20}/></Link></figcaption></figure>
-   <div className="sugar-shade-picker"><span className="eyebrow">PICK YOUR MOOD</span><div>{shades.map((s,i)=><button key={s.id} className={shadeIndex===i?'selected':''} style={{'--shade':s.hex} as React.CSSProperties} aria-pressed={shadeIndex===i} aria-label={s.label} onClick={()=>setShadeIndex(i)}><i/>{s.label}</button>)}</div><p aria-live="polite">Viscose Gradasi · {shade.name}<br/><strong>{priceLabel(gradasi)}</strong></p></div>
-   <Link className="sugar-round-link" to={`/produk/viscose-gradasi?varian=${shade.id}`}><ArrowUpRight size={35}/><span>MEET YOUR<br/>SWEET SHADE</span></Link>
+   <div className="sugar-hero-heading"><span className="eyebrow">GANA INSTAN / COLOUR YOUR EVERYDAY</span><h1>Your colour.<br/>Your kind<br/>of <em>sweet.</em></h1><p>Gana Instan. Praktis dipakai, manis untuk setiap hari.</p></div>
+   <figure className="sugar-portrait"><img key={shade.image} src={imageUrl(shade.image)} srcSet={imageSet(shade.image)} sizes="(max-width:700px) 68vw, 38vw" alt={`Gana Instan dikenakan model — ${shade.name}`} width="900" height="1200" fetchPriority="high"/><figcaption><span>01 / THE GANA INSTANT EDIT</span><Link to={`/produk/gana-instan?varian=${shade.id}`}>{shade.name}<ArrowUpRight size={20}/></Link></figcaption></figure>
+   <div className="sugar-shade-picker"><span className="eyebrow">PICK YOUR MOOD</span><div>{shades.map((s,i)=><button key={s.id} className={shadeIndex===i?'selected':''} style={{'--shade':s.hex} as React.CSSProperties} aria-pressed={shadeIndex===i} aria-label={s.label} onClick={()=>setShadeIndex(i)}><i/>{s.label}</button>)}</div><p aria-live="polite">Gana Instan · {shade.name}<br/><strong>{priceLabel(gana)}</strong></p></div>
+   <Link className="sugar-round-link" to={`/produk/gana-instan?varian=${shade.id}`}><ArrowUpRight size={35}/><span>MEET YOUR<br/>GANA INSTANT</span></Link>
    <a className="sugar-scroll" href="#sweet-selection">A little more sweetness <ArrowDown size={16}/></a>
   </section>
   <section className="sugar-wardrobe" id="sweet-selection"><div className="sugar-rail-heading"><div><span className="eyebrow">THE EVERYDAY WARDROBE</span><h2>Sweet things.<br/><em>Real favourites.</em></h2><p>Kenali pilihan untuk hari-harimu. Geser, lihat lebih dekat, lalu temukan yang paling kamu suka.</p><Link className="text-link" to="/koleksi">Masuk ke ruang koleksi <ArrowUpRight size={18}/></Link></div><div className="sugar-rail-controls"><button aria-label="Koleksi sebelumnya" disabled={edges.start} onClick={()=>scrollRail(-1)}><ArrowLeft size={21}/></button><button aria-label="Koleksi berikutnya" disabled={edges.end} onClick={()=>scrollRail(1)}><ArrowRight size={21}/></button></div></div><div className="sugar-product-rail" ref={rail} aria-label="Pilihan Sugar Shawl">{edit.map((p,i)=><Link className="sugar-rail-product" key={p.id} to={`/produk/${p.slug}`}><span className="sugar-look-number">0{i+1} / {p.category}</span><img src={imageUrl(p.images[0])} alt={p.name} width="600" height="800" loading="lazy"/><div><h3>{p.name}</h3><ArrowUpRight size={20}/></div><span>{priceLabel(p)}</span></Link>)}</div></section>

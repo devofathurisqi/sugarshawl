@@ -9,7 +9,7 @@ const retail=JSON.parse(readFileSync(new URL('../src/data/retail-prices.json',im
 const modal=products.find(p=>p.id==='modal-viscose'),gradasi=products.find(p=>p.id==='viscose-gradasi'),pending=products.find(p=>p.id==='mukena-rayon-viscose');
 const line=(p,n=1,v=p.variants[0].id)=>({productId:p.id,variantId:v,quantity:n});
 test('all supplied selling prices override retail and no product is duplicated',()=>{
- assert.equal(Object.keys(prices).length,config.key==='roona'?21:12);
+ assert.equal(Object.keys(prices).length,config.key==='roona'?21:13);
  for(const [id,price] of Object.entries(prices)){const p=products.find(p=>p.id===id);assert.ok(p,id);assert.equal(p.retailPrice,price,id);}
  assert.equal(new Set(products.map(p=>p.id)).size,products.length);assert.equal(new Set(products.map(p=>p.slug)).size,products.length);
  assert.equal(products.length,27);
@@ -25,11 +25,11 @@ test('every product follows brand price, verified Ecer, then inquiry in that ord
  for(const p of products){const expected=prices[p.id]??retail[p.id]??null;assert.equal(p.retailPrice,expected,p.id);assert.equal(p.pricingSource,prices[p.id]!==undefined?'brand':retail[p.id]!==undefined?'retail':'unresolved',p.id);}
  assert.equal(products.find(p=>p.id==='armani-lasercut').retailPrice,279000);
  assert.equal(products.find(p=>p.id==='armani-panel-printing').retailPrice,config.key==='roona'?345000:349000);
- assert.equal(products.filter(p=>p.retailPrice===null).length,config.key==='roona'?4:7);
+ assert.equal(products.filter(p=>p.retailPrice===null).length,config.key==='roona'?4:6);
 });
 test('each photographed variant has a real asset and responsive derivatives',()=>{
  for(const p of products){assert.equal(p.pricingStatus,p.retailPrice===null?'inquiry':'verified');assert.equal(p.availabilityStatus,'confirm');assert.ok(p.retailPrice===null||Number.isSafeInteger(p.retailPrice)&&p.retailPrice>0);
-  for(const im of [...p.images,...p.variants.map(v=>v.image)])for(const file of [im,...[360,640,960].map(w=>im.replace('.webp',`-${w}.webp`))])assert.ok(existsSync(new URL('../public/assets/images/'+file,import.meta.url)),file);
+  for(const im of [...p.images,...(p.modelImages||[]),...p.variants.map(v=>v.image)])for(const file of [im,...[360,640,960].map(w=>im.replace('.webp',`-${w}.webp`))])assert.ok(existsSync(new URL('../public/assets/images/'+file,import.meta.url)),file);
   assert.doesNotMatch(JSON.stringify(p),/costPrice|internalCost|wholesalePrice|RUMEA|Vuyama|reseller/i);
  }
 });

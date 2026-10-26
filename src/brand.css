@@ -18,3 +18,5 @@ body,.sugarshawl{background:var(--mint)}.sugarshawl .announcement{background:var
 .sugarshawl .brand-logo{mix-blend-mode:darken}@media(min-width:701px){.sugar-round-link{right:43%}}
 .sugarshawl .variant-count-link{display:inline-flex;align-items:center;gap:7px;font-size:10px;line-height:1.6;margin-top:9px;border-bottom:1px solid currentColor;padding-bottom:3px}.sugarshawl .variant-heading{scroll-margin-top:30px}.sugarshawl .detail-swatches{gap:5px}.sugarshawl .detail-swatches button{width:42px;height:42px;padding:8px}.sugarshawl .variant-heading>label{flex-shrink:0}
 .sugarshawl .photo-reference-note{font-size:11px;line-height:1.7;margin-top:12px}.sugarshawl .variant-heading>span{text-align:right}
+
+.photo-view-options{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.photo-view-options button{padding:11px 14px;border:1px solid var(--ink);font-size:11px;min-height:42px;background:var(--milk)}.photo-view-options button[aria-pressed=true]{background:var(--ink);color:var(--milk)}

@@ -306,7 +306,11 @@
             "image": "modal.webp"
           }
         ],
-        "description": "Siluet pashmina klasik berbahan Modal Viscose. Jelajahi seluruh pilihan warna untuk menemukan padanan yang terasa seperti kamu."
+        "description": "Siluet pashmina klasik berbahan Modal Viscose. Jelajahi seluruh pilihan warna untuk menemukan padanan yang terasa seperti kamu.",
+        "modelImages": [
+          "modal.webp",
+          "modal-alt.webp"
+        ]
       },
       "evidence": [
         {
@@ -608,7 +612,11 @@
           }
         ],
         "legacyVariants": [],
-        "description": "Dua nuansa dalam satu pashmina. Jelajahi 12 perpaduan warna Gradasi, dari Blushy Rose hingga Pearl Black, untuk cerita gaya yang berbeda."
+        "description": "Dua nuansa dalam satu pashmina. Jelajahi 12 perpaduan warna Gradasi, dari Blushy Rose hingga Pearl Black, untuk cerita gaya yang berbeda.",
+        "modelImages": [
+          "gradasi.webp",
+          "gradasi-alt.webp"
+        ]
       },
       "evidence": [],
       "notes": []
@@ -1223,6 +1231,10 @@
         "description": "Koleksi Paris Jadul dalam bentuk segi empat klasik. Dari warna netral hingga nuansa cerah, pilih warna favoritmu melalui pilihan di bawah.",
         "referenceImages": [
           "shade-38f9153bf63a64.webp"
+        ],
+        "modelImages": [
+          "paris.webp",
+          "paris-alt.webp"
         ]
       },
       "evidence": [
@@ -1713,7 +1725,10 @@
             "image": "airtech.webp"
           }
         ],
-        "description": "Pashmina berbahan Bamboo Airtech dengan siluet memanjang. Pilih warna yang melengkapi padanan busanamu."
+        "description": "Pashmina berbahan Bamboo Airtech dengan siluet memanjang. Pilih warna yang melengkapi padanan busanamu.",
+        "modelImages": [
+          "airtech.webp"
+        ]
       },
       "evidence": [
         {
@@ -2049,6 +2064,9 @@
         "description": "Pashmina oval instan dari koleksi Gana. Pilihan untuk kamu yang menyukai bentuk hijab praktis dengan tampilan yang tetap rapi.",
         "referenceImages": [
           "shade-4cfdef41646870.webp"
+        ],
+        "modelImages": [
+          "gana.webp"
         ]
       },
       "evidence": [
@@ -2629,7 +2647,11 @@
             "image": "windy.webp"
           }
         ],
-        "description": "Pilihan dari 18 kode PPV serta warna-warna seri Cloudy, Stormy, dan Windy. Pilih seri dan warna yang memberi karakter pada gaya personalmu."
+        "description": "Pilihan dari 18 kode PPV serta warna-warna seri Cloudy, Stormy, dan Windy. Pilih seri dan warna yang memberi karakter pada gaya personalmu.",
+        "modelImages": [
+          "printed-alt.webp",
+          "printed.webp"
+        ]
       },
       "evidence": [
         {
@@ -3539,7 +3561,14 @@
             "family": "Motif"
           }
         ],
-        "description": "Motif yang memberi karakter pada tampilan sehari-hari. Koleksi segi empat dari seri Tryspan, dengan ukuran 110 × 110 cm."
+        "description": "Motif yang memberi karakter pada tampilan sehari-hari. Koleksi segi empat dari seri Tryspan, dengan ukuran 110 × 110 cm.",
+        "images": [
+          "tryspan-primrose-model.webp",
+          "tryspan.webp"
+        ],
+        "modelImages": [
+          "tryspan-primrose-model.webp"
+        ]
       },
       "evidence": [
         {
@@ -4301,7 +4330,10 @@
             "family": "Pink"
           }
         ],
-        "description": "Pashmina dalam warna lembut untuk berbagai padanan busana. Pilihan berbahan Bamboo Spandex."
+        "description": "Pashmina dalam warna lembut untuk berbagai padanan busana. Pilihan berbahan Bamboo Spandex.",
+        "modelImages": [
+          "bamboo.webp"
+        ]
       },
       "evidence": [
         {
@@ -4560,7 +4592,10 @@
             "family": "Pink"
           }
         ],
-        "description": "Pashmina instan dengan ciput, untuk bentuk yang praktis dan tampilan yang rapi."
+        "description": "Pashmina instan dengan ciput, untuk bentuk yang praktis dan tampilan yang rapi.",
+        "modelImages": [
+          "zoya.webp"
+        ]
       },
       "evidence": [
         {
@@ -4833,7 +4868,10 @@
             "family": "Pink"
           }
         ],
-        "description": "Koleksi slip on berbahan Bamboo Spandex. Siluet sederhana yang mudah menjadi bagian dari keseharianmu."
+        "description": "Koleksi slip on berbahan Bamboo Spandex. Siluet sederhana yang mudah menjadi bagian dari keseharianmu.",
+        "modelImages": [
+          "slip-on.webp"
+        ]
       },
       "evidence": [
         {
@@ -5161,6 +5199,9 @@
         "description": "Segi empat Paris Japan Ori berukuran 115 × 115 cm. Jelajahi pilihan warna lengkap, dari netral lembut hingga nuansa yang lebih berani.",
         "referenceImages": [
           "shade-fdcb18b7788f90.webp"
+        ],
+        "modelImages": [
+          "paris-japan.webp"
         ]
       },
       "evidence": [
@@ -5500,6 +5541,9 @@
         "description": "Hijab instan berbahan Bamboo Spandex. Siluet sederhana dengan beragam pilihan warna untuk padanan gaya sehari-hari.",
         "referenceImages": [
           "shade-4fe6f850e5af55.webp"
+        ],
+        "modelImages": [
+          "hawa.webp"
         ]
       },
       "evidence": [
@@ -5776,7 +5820,10 @@
             "family": "Taupe"
           }
         ],
-        "description": "Permainan tekstur pada siluet pashmina. Koleksi Viscose Highlight untuk melengkapi gaya personalmu dengan detail yang lembut."
+        "description": "Permainan tekstur pada siluet pashmina. Koleksi Viscose Highlight untuk melengkapi gaya personalmu dengan detail yang lembut.",
+        "modelImages": [
+          "highlight.webp"
+        ]
       },
       "evidence": [
         {
@@ -6149,6 +6196,9 @@
         "description": "Khimar bandana Aisha. Bahan Arabian Voile dengan siluet panjang untuk pilihan gaya yang lebih tertutup.",
         "referenceImages": [
           "shade-97833bb0017076.webp"
+        ],
+        "modelImages": [
+          "aisha.webp"
         ]
       },
       "evidence": [
@@ -6465,7 +6515,10 @@
             "family": "Taupe"
           }
         ],
-        "description": "Khimar bandana Hayla berbahan Rayon Airflow. Pilihan dengan nuansa netral yang mudah dipadukan dengan busana sehari-hari."
+        "description": "Khimar bandana Hayla berbahan Rayon Airflow. Pilihan dengan nuansa netral yang mudah dipadukan dengan busana sehari-hari.",
+        "modelImages": [
+          "hayla.webp"
+        ]
       },
       "evidence": [
         {
@@ -7264,7 +7317,10 @@
             "family": "Lavender"
           }
         ],
-        "description": "Koleksi mukena segenggam dengan tampilan polos. Material New Solite dan tas pendamping yang ditampilkan pada foto produk."
+        "description": "Koleksi mukena segenggam dengan tampilan polos. Material New Solite dan tas pendamping yang ditampilkan pada foto produk.",
+        "modelImages": [
+          "segenggam-polos.webp"
+        ]
       },
       "evidence": [
         {
@@ -7584,7 +7640,11 @@
           }
         ],
         "legacyVariants": [],
-        "description": "Khimar dengan siluet oval yang memanjang. Pilihan putih dan pink pada foto memberi dua nuansa untuk melengkapi padanan busanamu. Detail bahan dan ukuran dapat ditanyakan sebelum memesan."
+        "description": "Khimar dengan siluet oval yang memanjang. Pilihan putih dan pink pada foto memberi dua nuansa untuk melengkapi padanan busanamu. Detail bahan dan ukuran dapat ditanyakan sebelum memesan.",
+        "modelImages": [
+          "lea-oval-khiban.webp",
+          "lea-oval-khiban-rose.webp"
+        ]
       },
       "evidence": [],
       "notes": [
@@ -7615,7 +7675,11 @@
           }
         ],
         "legacyVariants": [],
-        "description": "Hijab instan dari koleksi Zea Sport dengan siluet pendek dan detail tali pada foto. Pilih nuansa pink atau taupe sesuai tampilan katalog. Konfirmasikan bahan, ukuran, dan ketersediaannya bersama kami."
+        "description": "Hijab instan dari koleksi Zea Sport dengan siluet pendek dan detail tali pada foto. Pilih nuansa pink atau taupe sesuai tampilan katalog. Konfirmasikan bahan, ukuran, dan ketersediaannya bersama kami.",
+        "modelImages": [
+          "zea-sport-instan.webp",
+          "zea-sport-instan-alt.webp"
+        ]
       },
       "evidence": [],
       "notes": [
@@ -9665,6 +9729,10 @@
     },
     "shade-93cd1552b295a0.webp": {
       "sourceFileId": "1p3dqTwWj3RjBplxQvInoEKz7ImLWrcp6",
+      "crop": null
+    },
+    "tryspan-primrose-model.webp": {
+      "sourceFileId": "1k4iFIuTygg8hb8KJB9NS6iPYv0gcvwvw",
       "crop": null
     }
   },

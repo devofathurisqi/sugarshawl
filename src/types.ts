@@ -4,6 +4,7 @@ export interface Product {
   legacyIds?: string[];
   legacyVariants?: Variant[];
   referenceImages?: string[];
+  modelImages?: string[];
   pricingSource?: 'brand' | 'retail' | 'unresolved';
   id: string; slug: string; name: string; category: string; material: string | null;
   retailPrice: number | null; pricingStatus: 'verified' | 'inquiry'; description: string;

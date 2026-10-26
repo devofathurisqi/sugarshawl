@@ -285,6 +285,10 @@
         "hex": "#eee9de",
         "image": "modal.webp"
       }
+    ],
+    "modelImages": [
+      "modal.webp",
+      "modal-alt.webp"
     ]
   },
   {
@@ -391,7 +395,11 @@
     "featured": true,
     "availabilityStatus": "confirm",
     "pricingSource": "retail",
-    "legacyVariants": []
+    "legacyVariants": [],
+    "modelImages": [
+      "gradasi.webp",
+      "gradasi-alt.webp"
+    ]
   },
   {
     "id": "paris-legend",
@@ -957,6 +965,10 @@
     ],
     "referenceImages": [
       "shade-38f9153bf63a64.webp"
+    ],
+    "modelImages": [
+      "paris.webp",
+      "paris-alt.webp"
     ]
   },
   {
@@ -1049,6 +1061,9 @@
         "hex": "#b6a2a8",
         "image": "airtech.webp"
       }
+    ],
+    "modelImages": [
+      "airtech.webp"
     ]
   },
   {
@@ -1276,6 +1291,9 @@
     ],
     "referenceImages": [
       "shade-4cfdef41646870.webp"
+    ],
+    "modelImages": [
+      "gana.webp"
     ]
   },
   {
@@ -1557,6 +1575,10 @@
         "contain": true,
         "image": "windy.webp"
       }
+    ],
+    "modelImages": [
+      "printed-alt.webp",
+      "printed.webp"
     ]
   },
   {
@@ -1570,6 +1592,7 @@
     "description": "Motif yang memberi karakter pada tampilan sehari-hari. Koleksi segi empat dari seri Tryspan, dengan ukuran 110 × 110 cm.",
     "measurements": "110 × 110 cm",
     "images": [
+      "tryspan-primrose-model.webp",
       "tryspan.webp"
     ],
     "variants": [
@@ -2313,6 +2336,9 @@
         "image": "tryspan.webp",
         "family": "Motif"
       }
+    ],
+    "modelImages": [
+      "tryspan-primrose-model.webp"
     ]
   },
   {
@@ -2506,6 +2532,9 @@
         "image": "bamboo.webp",
         "family": "Pink"
       }
+    ],
+    "modelImages": [
+      "bamboo.webp"
     ]
   },
   {
@@ -2644,6 +2673,9 @@
         "image": "zoya.webp",
         "family": "Pink"
       }
+    ],
+    "modelImages": [
+      "zoya.webp"
     ]
   },
   {
@@ -2828,6 +2860,9 @@
         "image": "slip-on.webp",
         "family": "Pink"
       }
+    ],
+    "modelImages": [
+      "slip-on.webp"
     ]
   },
   {
@@ -3028,6 +3063,9 @@
     ],
     "referenceImages": [
       "shade-fdcb18b7788f90.webp"
+    ],
+    "modelImages": [
+      "paris-japan.webp"
     ]
   },
   {
@@ -3223,6 +3261,9 @@
     ],
     "referenceImages": [
       "shade-4fe6f850e5af55.webp"
+    ],
+    "modelImages": [
+      "hawa.webp"
     ]
   },
   {
@@ -3364,6 +3405,9 @@
         "image": "highlight.webp",
         "family": "Taupe"
       }
+    ],
+    "modelImages": [
+      "highlight.webp"
     ]
   },
   {
@@ -3556,6 +3600,9 @@
     ],
     "referenceImages": [
       "shade-97833bb0017076.webp"
+    ],
+    "modelImages": [
+      "aisha.webp"
     ]
   },
   {
@@ -3729,6 +3776,9 @@
         "image": "hayla.webp",
         "family": "Taupe"
       }
+    ],
+    "modelImages": [
+      "hayla.webp"
     ]
   },
   {
@@ -4134,6 +4184,9 @@
         "image": "segenggam-polos.webp",
         "family": "Lavender"
       }
+    ],
+    "modelImages": [
+      "segenggam-polos.webp"
     ]
   },
   {
@@ -4340,7 +4393,11 @@
     "featured": false,
     "availabilityStatus": "confirm",
     "pricingSource": "brand",
-    "legacyVariants": []
+    "legacyVariants": [],
+    "modelImages": [
+      "lea-oval-khiban.webp",
+      "lea-oval-khiban-rose.webp"
+    ]
   },
   {
     "id": "zea-sport-instan",
@@ -4348,8 +4405,8 @@
     "name": "Zea Sport Instan",
     "category": "Hijab Instan",
     "material": null,
-    "retailPrice": null,
-    "pricingStatus": "inquiry",
+    "retailPrice": 48000,
+    "pricingStatus": "verified",
     "measurements": null,
     "description": "Hijab instan dari koleksi Zea Sport dengan siluet pendek dan detail tali pada foto. Pilih nuansa pink atau taupe sesuai tampilan katalog. Konfirmasikan bahan, ukuran, dan ketersediaannya bersama kami.",
     "images": [
@@ -4375,8 +4432,12 @@
     "colorFamily": "Pink",
     "featured": false,
     "availabilityStatus": "confirm",
-    "pricingSource": "unresolved",
-    "legacyVariants": []
+    "pricingSource": "brand",
+    "legacyVariants": [],
+    "modelImages": [
+      "zea-sport-instan.webp",
+      "zea-sport-instan-alt.webp"
+    ]
   },
   {
     "id": "inner-tali",

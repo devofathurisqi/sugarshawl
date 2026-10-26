@@ -13,4 +13,6 @@ Brand/contact/storage: `src/config.ts`. Catalog: `src/data/products.json`. Clien
 
 The current design uses mint #9FC1A9 and peach #EFC2AF sampled from the supplied logo, silk ribbons, an interactive shade hero, a horizontal product wardrobe and asymmetric collection rooms. Product photography retains its authentic colors. Revision verification: `../qa/revision/RESULTS.md`.
 
-Set `SITE_URL` to the real production origin when building to generate canonical URLs and a sitemap. The folder is named `sugarshawl_150_3` because Vite cannot reliably build from the original path containing `#`. Full implementation, evidence, limits, tests, and launch instructions are in `../IMPLEMENTATION.md`.
+The homepage features Gana Instan. Catalog cards and product galleries prioritize verified on-model photography where available; the gallery keeps model examples accessible when switching colors. Zea Sport Instan uses the confirmed Sugar Shawl price of Rp48,000. See `docs/REVISION-2026-10-26.md` for the revision and verification record.
+
+Production: https://sugarshawl.vercel.app (GitHub `prod` branch, deployed by Vercel). Set `SITE_URL` to the production origin when building to generate canonical URLs and a sitemap. The folder is named `sugarshawl_150_3` because Vite cannot reliably build from the original path containing `#`.
